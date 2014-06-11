@@ -164,10 +164,28 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="sOz-tw-k62"/>
+                    <connections>
+                        <segue destination="qay-P4-G5y" kind="push" id="O2E-La-t3k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="68W-W7-HJw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="996" y="1482"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="abb-pX-GKe">
+            <objects>
+                <viewController id="qay-P4-G5y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h5Y-VE-s4d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iuM-xG-ogx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fCO-bI-5XU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1574" y="1640"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="qRq-3G-mhN">

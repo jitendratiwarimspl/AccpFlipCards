@@ -53,7 +53,7 @@
 }
 -(IBAction)btnContents_Click:(id)sender{
     [self performSegueWithIdentifier:@"STATS" sender:nil];
-    NSLog(@"jitendra tiwari");
+    NSLog(@"jitendra tiwari >>>>>>>>>>>>>>>>>>>>>>>>   ");
 }
 -(IBAction)btnShuffle_Click:(id)sender{
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		755284B919484E7400DAC90D /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755284B819484E7400DAC90D /* AddViewController.m */; };
 		75DA2CC819221593007FD892 /* Menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DA2CB519221593007FD892 /* Menu_button.png */; };
 		75DA2CED19221650007FD892 /* arrow_back_30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DA2CDB19221650007FD892 /* arrow_back_30x30.png */; };
 		75DA2CEE19221650007FD892 /* arrow_back_30x30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DA2CDC19221650007FD892 /* arrow_back_30x30@2x.png */; };
@@ -62,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		755284B719484E7400DAC90D /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		755284B819484E7400DAC90D /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 		75DA2CB31921D381007FD892 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		75DA2CB519221593007FD892 /* Menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu_button.png; sourceTree = "<group>"; };
 		75DA2CDB19221650007FD892 /* arrow_back_30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_back_30x30.png; sourceTree = "<group>"; };
@@ -265,6 +268,8 @@
 				75E1C6A41920F9AD00F5DDF6 /* HomeViewController.m */,
 				75E64A611923240A001F1922 /* StatsViewController.h */,
 				75E64A621923240A001F1922 /* StatsViewController.m */,
+				755284B719484E7400DAC90D /* AddViewController.h */,
+				755284B819484E7400DAC90D /* AddViewController.m */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -438,6 +443,7 @@
 				75E1C6A21920F3B000F5DDF6 /* ACCPCustomSegue.m in Sources */,
 				75E1C6651920D9B000F5DDF6 /* main.m in Sources */,
 				75E1C69F1920DE7600F5DDF6 /* MenuViewController.m in Sources */,
+				755284B919484E7400DAC90D /* AddViewController.m in Sources */,
 				75E1C6A51920F9AD00F5DDF6 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
